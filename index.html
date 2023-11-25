@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>reveal.js – The HTML Presentation Framework</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white-contrast.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	</style>
+</head>
+
+<body
+	style="background: url('assets/bg-w.webp'); background-repeat: no-repeat; background-size: cover; font-family: 'Open Sans', sans-serif;">
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<img src="assets/css.png" alt="reveal.js logo"
+					style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				<h3>Introduction au css</h3>
+				<p>
+					<small>Créé par <a href="http://hakim.se">Haruna Rashid Yakubu</a> pour <a
+							href="https://worketyamo.itengineeringpro.fr">Worketyamo</a></small>
+				</p>
+			</section>
+
+			<section>
+				<a href="https://www.credly.com/badges/737e5f72-db44-4c45-b209-010da8d8f502/public_url">
+					<img src="assets/image (4).png" alt="" srcset="">
+				</a>
+			</section>
+			<section>
+				<section id="fragments">
+					<h1>Introduction</h1>
+				</section>
+				<section id="fragments">
+					<p class="fragment grow"> CSS, ou <span style="background: yellow;">Cascading Style Sheets</span>,
+						est un langage de
+						feuille de
+						style qui permet de contrôler
+						<span style="background: yellow;">l'apparence des éléments HTML.</span> Il est utilisé pour
+						définir la
+						couleur, la taille, la police, la
+						mise en page et d'autres aspects visuels d'un site Web.
+					</p>
+				</section>
+			</section>
+			<section>
+				<section id="fragment">
+					<h2 class="r-fit-text">Les Bases du CSS</h2>
+				</section>
+				<section id="fragment">
+					<p class="fragment grow">Une règle CSS est composée d'un <span
+							style="background: yellow;">sélecteur</span>, d'une <span
+							style="background: yellow;">propriété</span> et d'une <span
+							style="background: yellow;">valeur</span>. Le sélecteur permet
+						de désigner l'élément HTML sur lequel appliquer le style. La propriété définit le style à
+						appliquer. La valeur est la valeur du style.
+					</p>
+				</section>
+				<section>
+					<h3>Example</h3>
+					<pre><code  class="hljs css" style="font-size: 40px; line-height: 70px;">
+						p {
+							color: "green"
+						  }
+					</code></pre>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Les Selecteurs en CSS </h1>
+				</section>
+				<section style="text-align: left;">
+					<p class="fragment grow">Les sélecteurs sont utilisés pour <span
+							style="background: yellow;">désigner</span> les éléments
+						HTML sur lesquels appliquer le style. Il existe de nombreux types de sélecteurs, dont les plus
+						courants sont :</p>
+					<ul>
+						<li class="fragment fade-left">Les sélecteurs d'élément; </li>
+						<li class="fragment fade-left">Les sélecteurs de classe</li>
+						<li class="fragment fade-left">Les sélecteurs d'id </li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Les propriétés CSS</h1>
+				</section>
+				<section style="text-align: left;">
+					<p class="fragment grow">Il existe de nombreuses propriétés CSS qui permettent de
+
+						<span style="background: yellow;">contrôler l'apparence</span> des éléments HTML. Voici
+						quelques-unes des propriétés les plus courantes :
+					</p>
+					<ul>
+						<li class="fragment fade-left">Couleur</li>
+						<li class="fragment fade-left">Texte</li>
+						<li class="fragment fade-left">Police</li>
+						<li class="fragment fade-left">Mise en Forme</li>
+						<li class="fragment fade-left">Mise en Page</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>
+						Les valeurs CSS
+					</h1>
+				</section>
+				<section>
+					<p class="fragment grow">Les valeurs CSS peuvent être de différents types, tels que des chaînes de
+						caractères, des nombres, des couleurs ou des listes. </p>
+				</section>
+			</section>
+			<section>
+				<h1></h1>
+			</section>
+			</section>
+
+
+
+
+			<script src="dist/reveal.js"></script>
+			<script src="plugin/zoom/zoom.js"></script>
+			<script src="plugin/notes/notes.js"></script>
+			<script src="plugin/search/search.js"></script>
+			<script src="plugin/markdown/markdown.js"></script>
+			<script src="plugin/highlight/highlight.js"></script>
+			<script>
+
+				// Also available as an ES module, see:
+				// https://revealjs.com/initialization/
+				Reveal.initialize({
+					controls: true,
+					progress: true,
+					center: true,
+					hash: true,
+
+					// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+				});
+
+			</script>
+
+</body>
+
+</html>
